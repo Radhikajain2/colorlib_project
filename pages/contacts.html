@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+  integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="../stylesheet/home.css">
+</head>
+ 
+<body>
+  <header>
+    <div class="header-area header-transparent">
+      <div class="main-header header-sticky sticky-bar">
+        <div class="container-fluid">
+          <div class="menu-wrapper d-flex align-items-center justify-content-between">
+            <div class="left-content d-flex align-items-center">
+              <div class="logo">
+                <a href="../home.html">
+                  <img src="../images/logo.png.webp" alt="logo">
+                </a>
+              </div>
+              <form action="#" class="form-box">
+                <input type="text" name="Search" placeholder="Search">
+                <div class="search-icon">
+                  <i class="fas fa-search"></i>
+                </div>
+              </form>
+              <div class="main-menu d-none d-lg-block">
+                <nav>
+                  <ul id="navigation">
+                    <li>
+                      <a href="../home.html">Home</a>
+                    </li>
+                    <li>
+                      <a href="listing.html">Listing
+                        <i class="fas fa-angle-down"></i>
+                      </a>
+                      <ul class="submenu">
+                        <li>
+                          <a href="listing.html">Listing</a>
+                        </li>
+                        <li>
+                          <a href="listing details.html">Listing Details</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="About.html">About</a>
+                    </li>
+                    <li>
+                      <a href="blog.html">Blog</a>
+                      <ul class="submenu">
+                        <li>
+                          <a href="blog.html">Blog</a>
+                        </li>
+                        <li>
+                          <a href="blog details.html">Blog Details</a>
+                        </li>
+                        <li>
+                          <a href="elements.html">Element</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="contacts.html">Contact</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            <div class="buttons">
+              <ul>
+                <li class="button-header">
+                  <a href="sign_in.html" class="header-btn mr-30">Sign In</a>
+                  <a href="#" class="btn header-btn2">Add Listing</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="slider-area">
+      <div class="slider-height2 hero-bg2 hero-overly d-flex align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-12">
+              <div class="hero-caption hero-caption2">
+                <h2>Contact Us</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  <section class="contact-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-10 col-md-11 col-xl-12 col-lg-9 mb-30" style="width: 100%;">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.1786539269224!2d55.27218771500953!3d25.197196983896188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff45e502e1ceb7e2!2sBurj%20Khalifa!5e0!3m2!1sen!2sbd!4v1588690958350!5m2!1sen!2sbd" width="100%" height="370"  style="border:0;"  ></iframe>
+        </div>
+        <div class="col-12">
+          <h2 class="contact-title">Get in Touch</h2>
+        </div>
+        <div class="col-lg-8">
+          <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+            <div class="row">
+              <div class="col-12">
+                <div class="form-group">
+                  <textarea class="form-control w-100" name="message" id="message" cols="30" rows="10" placeholder="Enter Message"></textarea>
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <input class="form-control valid" name="name" id="name" type="text" placeholder="Enter your name">
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <input class="form-control valid" name="email" id="email" type="email" placeholder="Email">
+                </div>
+              </div>
+
+              <div class="col-12">
+                <div class="form-group">
+                  <input class="form-control " name="subject" id="subject" type="text" placeholder="Enter Subject">
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group mt-3">
+              <button type="submit" class="button button-contactForm boxed-btn">Send</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="col-lg-3 offset-lg-1">
+          <div class="media contact-info">
+            <span class="contact-info__icon">
+              <i class="fa fa-home"></i>
+            </span>
+            <div class="media-body">
+              <h3>Buttonwood, California.</h3>
+              <p>Rosemead, CA 91770</p>
+            </div>
+          </div>
+
+          <div class="media contact-info">
+            <span class="contact-info__icon">
+              <i class="fa fa-tablet"></i>
+            </span>
+            <div class="media-body">
+              <h3>+1 253 565 2365</h3>
+              <p>Mon to Fri 9am to 6pm</p>
+            </div>
+          </div>
+
+          <div class="media contact-info">
+            <span class="contact-info__icon">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+            </span>
+            <div class="media-body">
+              <h3>support@colorlib.com</h3>
+              <p>Send us your query anytime!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    
+  </main>
+
+  <footer>
+    <div class="footer-wrapper gray-bg">
+      <div class="footer-area footer-padding">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-8">
+              <div class="single-footer-caption mb-50">
+                <div class="footer-logo mb-35">
+                  <a href="#">
+                    <img src="../images/logo.png.webp" alt="logo">
+                  </a>
+                </div>
+                <div class="footer-pera">
+                  <p>
+                    Seddo eiusmod tempor incididunt ut labore et dolore magna aliqua. Conse ctetur pisicin elit, sed do
+                    eiusmod tempor.
+                  </p>
+                </div>
+                <div class="footer-social">
+                  <a href="https://www.facebook.com/">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                  <a href="https://www.instagram.com/">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="https://in.linkedin.com/">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a href="https://www.youtube.com/">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+              <div class="single-footer-caption mb-50">
+                <div class="footer-tittle">
+                  <h4>Navigation</h4>
+                  <ul style="margin: 0px;padding: 0px;">
+                    <li>
+                      <a href="#">Home</a>
+                    </li>
+                    <li>
+                      <a href="#">About</a>
+                    </li>
+                    <li>
+                      <a href="#">Services</a>
+                    </li>
+                    <li>
+                      <a href="#">Blog</a>
+                    </li>
+                    <li>
+                      <a href="#">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+              <div class="single-footer-caption mb-50">
+                <div class="footer-tittle">
+                  <h4>Services</h4>
+                  <ul style="margin: 0px;padding: 0px;">
+                    <li>
+                      <a href="#">Care</a>
+                    </li>
+                    <li>
+                      <a href="#">Treatment</a>
+                    </li>
+                    <li>
+                      <a href="#">Trainingl</a>
+                    </li>
+                    <li>
+                      <a href="#">Hygienic Care</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8">
+              <div class="footer-tittle mb-10">
+                <h4>Subscribe newsletter</h4>
+                <p>Subscribe our newsletter to get updates about our services and offers.</p>
+              </div>
+              <div class="footer-form mb-20">
+                <form action="#">
+                  <input type="email" name="EMAIL" id="newsletter-form-email" placeholder="Enter your email">
+                  <div class="form-icon">
+                    <button type="submit" name="submit" id="newsletter-form-email" class="">
+                      <i class="fas fa-arrow-right"></i>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="footer-border">
+            <div class="row">
+              <div class="col-xl-12">
+                <p>Copyright ©2023 All rights reserved | This template is made with
+                  <i class="fa fa-heart"></i>
+                  by
+                  <a href="https://colorlib.com" target="_blank" rel="nofollow noopener">Colorlib</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div id="back-top" style="display: block;">
+    <a title="Go to Top" href="#">
+      <i class="fas fa-level-up-alt"></i>
+    </a>
+  </div>
+</body>
+
+</html>
