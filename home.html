@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HOME</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="stylesheet/home.css">
+</head>
+<body>
+  <header>
+    <div class="header-area header-transparent">
+      <div class="main-header header-sticky sticky-bar">
+        <div class="container-fluid">
+          <div class="menu-wrapper d-flex align-items-center justify-content-between">
+            <div class="left-content d-flex align-items-center">
+              <div class="logo">
+                <a href="home.html">
+                  <img src="images/logo.png.webp" alt="logo">
+                </a>
+              </div>
+              <form action="#" class="form-box">
+                <input type="text" name="Search" placeholder="Search">
+                <div class="search-icon">
+                  <i class="fas fa-search"></i>
+                </div>
+              </form>
+              <div class="main-menu d-none d-lg-block">
+                <nav>
+                  <ul id="navigation">
+                    <li>
+                      <a href="#">Home</a>
+                    </li>
+                    <li>
+                      <a href="pages/listing.html">Listing 
+                        <i class="fas fa-angle-down"></i>
+                      </a>
+                      <ul class="submenu">
+                        <li>
+                          <a href="pages/listing.html">Listing</a>
+                        </li>
+                        <li>
+                          <a href="pages/listing details.html">Listing Details</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="pages/About.html">About</a>
+                    </li>
+                    <li>
+                      <a href="#">Blog</a>
+                      <ul class="submenu">
+                        <li>
+                          <a href="pages/blog.html">Blog</a>
+                        </li>
+                        <li>
+                          <a href="pages/blog details.html">Blog Details</a>
+                        </li>
+                        <li>
+                          <a href="pages/elements.html">Element</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="pages/contacts.html">Contact</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            <div class="buttons">
+              <ul>
+                <li class="button-header">
+                  <a href="pages/sign_in.html" class="header-btn mr-30">Sign In</a>
+                  <a href="#" class="btn header-btn2">Add Listing</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <nav class="navbar navbar-expand-lg navbar-light ">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-togg"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav> -->
+  </header>
+
+  <main>
+    <div class="slider-area hero-bg1">
+      <div class="single-slider hero-overly  slider-height1 d-flex align-items-center">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xl-9 col-lg-11">
+              <div class="hero-caption pt-10">
+                <h1>Listing made easy.</h1>
+                <p>Explore vacation rentals, bar & restaurants and experiences .
+                   Find amazing places to visit
+                </p>
+              </div>
+              <form action="#" class="search-box mb-45">
+                <div class="input-form">
+                  <input type="text" placeholder="Ex: Food, Service, Hotel, Shopping">
+                  <span>What?</span>
+                </div>
+                <div class="input-form">
+                  <input type="text" placeholder="Your City....">
+                  <span>Where?</span>
+                </div>
+                <div class="search-form">
+                  <a href="#">
+                    <i class="fas fa-search"></i>
+                    Search
+                  </a>
+                </div>
+              </form>
+              <div class="category-items text-center">
+                <ul style="margin: 0px;padding: 0px;">
+                  <li>
+                    <a href="#">Restaurant</a>
+                  </li>
+                  <li>
+                    <a href="#" class="active">Home</a>
+                  </li>
+                  <li>
+                    <a href="#">Party</a>
+                  </li>
+                  <li>
+                    <a href="#">Shopping</a>
+                  </li>
+                  <li>
+                    <a href="#">Hotel</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+    
+ 
+
+    <section class="great-stuffs section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section-tittle text-center mb-40">
+              <h2>Top Destination</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+            <div class="single-location mb-30 text-center">
+              <div class="location-img">
+                <img src="images/new york.webp" alt="New york">
+              </div>
+              <div class="location-details">
+                <h4>
+                  <a href="#">Explore
+                    <i class="fas fa-angle-right"></i>
+                  </a>
+                </h4>
+              </div>
+              <h3>
+                <a href="#">New York</a>
+              </h3>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+            <div class="single-location mb-30 text-center">
+              <div class="location-img">
+                <img src="images/topDesti2.png.webp" alt="New york">
+              </div>
+              <div class="location-details">
+                <h4>
+                  <a href="#">Explore
+                    <i class="fas fa-angle-right"></i>
+                  </a>
+                </h4>
+              </div>
+              <h3>
+                <a href="#">Toronto</a>
+              </h3>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+            <div class="single-location mb-30 text-center">
+              <div class="location-img">
+                <img src="images/topDesti3.png.webp" alt="New york">
+              </div>
+              <div class="location-details">
+                <h4>
+                  <a href="#">Explore
+                    <i class="fas fa-angle-right"></i>
+                  </a>
+                </h4>
+              </div>
+              <h3>
+                <a href="#">Thailand</a>
+              </h3>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+            <div class="single-location mb-30 text-center">
+              <div class="location-img">
+                <img src="images/topDesti4.png.webp" alt="New york">
+              </div>
+              <div class="location-details">
+                <h4>
+                  <a href="#">Explore
+                    <i class="fas fa-angle-right"></i>
+                  </a>
+                </h4>
+              </div>
+              <h3>
+                <a href="#">Paris</a>
+              </h3>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+            <div class="single-location mb-30 text-center">
+              <div class="location-img">
+                <img src="images/topDesti5.png.webp" alt="New york">
+              </div>
+              <div class="location-details">
+                <h4>
+                  <a href="#">Explore
+                    <i class="fas fa-angle-right"></i>
+                  </a>
+                </h4>
+              </div>
+              <h3>
+                <a href="#">Dhaka</a>
+              </h3>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+            <div class="single-location mb-30 text-center">
+              <div class="location-img">
+                <img src="images/topDesti6.png.webp" alt="New york">
+              </div>
+              <div class="location-details">
+                <h4>
+                  <a href="#">Explore
+                    <i class="fas fa-angle-right"></i>
+                  </a>
+                </h4>
+              </div>
+              <h3>
+                <a href="#">Rome</a>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="popular-location section-padding section-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section-tittle text-center mb-80">
+              <h2>Things Are You Interested In</h2>
+              <p>Things you are looking for today</p>
+              </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 col-md-12">
+            <div class="row">
+              <div class="col-lg-12 col-md-6 col-sm-6">
+                <div class="single-location mb-20">
+                  <div class="location-img">
+                    <img src="images/home-blog1.jpg.webp" alt="image1">
+                  </div>
+                  <div class="location-details">
+                    <h4>
+                      <a href="#">Restaurant & Bar</a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12 col-md-6 col-sm-6">
+                <div class="single-location mb-20">
+                  <div class="location-img">
+                    <img src="images/home-blog2.jpg.webp" alt="image2">
+                  </div>
+                  <div class="location-details">
+                    <h4>
+                      <a href="#">Outdoor</a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-10">
+            <div class="single-location mb-20">
+              <div class="location-img">
+                <img src="images/home-blog3.jpg.webp" alt="image3">
+              </div>
+              <div class="location-details location-details2">
+                <h4>
+                  <a href="#">Shopping Center</a>
+                </h4>
+                <p>
+                  Discover & connect with great 
+                  <br>
+                  local businesses in New York
+                </p>
+                <a href="#" class="location-btn">Explore</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-12">
+            <div class="row">
+              <div class="col-lg-12 col-md-6 col-sm-6">
+                <div class="single-location mb-20">
+                  <div class="location-img">
+                    <img src="images/home-blog4.jpg.webp" alt="image4">
+                  </div>
+                  <div class="location-details">
+                    <h4>
+                      <a href="#">Restaurant & Bar</a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12 col-md-6 col-sm-6">
+                <div class="single-location mb-20">
+                  <div class="location-img">
+                    <img src="images/home-blog5.jpg.webp" alt="image5">
+                  </div>
+                  <div class="location-details">
+                    <h4>
+                      <a href="#">Outdoor</a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="popular-directorya-area section-padding fix">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 col-12 col-sm-12 col-md-12">
+              <div class="section-tittle text-center mb-35">
+                <h2>Popular Things To do</h2>
+                <p>Popular Exclusive Listings In Our Directory</p>
+              </div>
+            </div>  
+          </div>
+
+          
+          <div class=" directory-active slick-initialized slick-slider">
+            <div class="row justify-content-between ">
+              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                <div class="slick-list draggable ">
+                  <div class="slick-track">
+                    <div class="properties pb-20 slick-slide slick-cloned d-flex" style="width: 383px;">
+                      <div class="properties-card">
+                        <div class="properties-img overlay1">
+                          <a href="#">
+                            <img src="images/directory3.jpg.webp" alt="directory image1">
+                          </a>
+                          <div class="img-text">
+                            <span>Closed</span>
+                          </div>
+                          <div class="icon">
+                            <i class="far fa-heart"></i>
+                          </div>
+                          <div class="ratting">
+                            <ul>
+                              <li>
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li>
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li>
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li>
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li>
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li>
+                                <span>- 4.90 (230 Review)</span>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="properties-caption">
+                          <h3>
+                            <a href="#" >Gloria Fast Food Restaurant</a>
+                            <img src="images/varified.png.webp" alt="varified">
+                          </h3>
+                          <p style="color: #635c5c;">
+                            <i class="fas fa-map-marker-alt"></i>
+                            75 Prince Street, green road, NY, USAk
+                          </p>
+                        </div>
+                        <div class="properties-footer d-flex justify-content-between align-items-center flex-wrap">
+                          <div class="restaurant-name">
+                            <img src="images/restaurant-icon.svg" alt="restaurant-icon">
+                            <h3>
+                              <a href="#">Food & Restaurant</a>
+                            </h3>
+                          </div>
+                          <div class="contact">
+                            <ul>
+                              <li>
+                                <i class="fas fa-phone"></i>
+                              </li>
+                              <li>
+                                <i class="far fa-envelope"></i>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                <div class="slick-list draggable ">
+                  <div class="slick-track">
+                    <div class="properties pb-20 slick-slide slick-cloned " style="width: 383px;">
+                      <div class="properties-card">
+                        <div class="properties-img overlay1">
+                          <a href="#">
+                            <img src="images/directory1.jpg.webp" alt="directory image1">
+                          </a>
+                          <div class="img-text">
+                            <span>Closed</span>
+                          </div>
+                          <div class="icon">
+                            <i class="far fa-heart"></i>
+                          </div>
+                          <div class="ratting">
+                            <ul>
+                              <li>
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li>
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li>
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li>
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li>
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li>
+                                <span>- 4.90 (230 Review)</span>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="properties-caption">
+                          <h3>
+                            <a href="#" >Gloria Fast Food Restaurant</a>
+                            <img src="images/varified.png.webp" alt="varified">
+                          </h3>
+                          <p style="color: #635c5c;">
+                            <i class="fas fa-map-marker-alt"></i>
+                            75 Prince Street, green road, NY, USAk
+                          </p>
+                        </div>
+                        <div class="properties-footer d-flex justify-content-between align-items-center flex-wrap">
+                          <div class="restaurant-name">
+                            <img src="images/restaurant-icon.svg" alt="restaurant-icon">
+                            <h3>
+                              <a href="#">Food & Restaurant</a>
+                            </h3>
+                          </div>
+                          <div class="contact">
+                            <ul>
+                              <li>
+                                <i class="fas fa-phone"></i>
+                              </li>
+                              <li>
+                                <i class="far fa-envelope"></i>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                <div class="slick-list draggable ">
+                  <div class="slick-track">
+                    <div class="properties pb-20 slick-slide slick-cloned d-flex" style="width: 383px;">
+                      <div class="properties-card">
+                        <div class="properties-img overlay1">
+                          <a href="#">
+                            <img src="images/directory4.jpg.webp" alt="directory image1">
+                          </a>
+                          <div class="img-text">
+                            <span>Closed</span>
+                          </div>
+                          <div class="icon">
+                            <i class="far fa-heart"></i>
+                          </div>
+                          <div class="ratting">
+                            <ul>
+                              <li>
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li>
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li>
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li>
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li>
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li>
+                                <span>- 4.90 (230 Review)</span>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="properties-caption">
+                          <h3>
+                            <a href="#" >Gloria Fast Food Restaurant</a>
+                            <img src="images/varified.png.webp" alt="varified">
+                          </h3>
+                          <p style="color: #635c5c;">
+                            <i class="fas fa-map-marker-alt"></i>
+                            75 Prince Street, green road, NY, USAk
+                          </p>
+                        </div>
+                        <div class="properties-footer d-flex justify-content-between align-items-center flex-wrap">
+                          <div class="restaurant-name">
+                            <img src="images/restaurant-icon.svg" alt="restaurant-icon">
+                            <h3>
+                              <a href="#">Food & Restaurant</a>
+                            </h3>
+                          </div>
+                          <div class="contact">
+                            <ul>
+                              <li>
+                                <i class="fas fa-phone"></i>
+                              </li>
+                              <li>
+                                <i class="far fa-envelope"></i>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>    
+        </div> 
+
+        <section class="container">
+          <div class="row justify-content-center">
+            <div class="col-xl-8 col-lg-9">
+              <div class="work-area mt-30 w-padding">
+                <div class="paragraph">
+                  <h2>Do you want to find more?</h2>
+                  <p>10,563 listing for you on our list.</p>
+                </div>
+                <div class="link">
+                  <a href="#" class="btn work-btn">Explore More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section> 
+      </div>
+    </section>
+        
+            
+
+
+    <section class="our-services section-padding position-relative">
+      <div class="container">
+        <div class="row justify-content-sm-center">
+          <div class="col-xl-7 col-lg-8 col-md-11">
+            <div class="section-tittle text-center mb-70">
+              <h2>How It Work?</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-between">
+          <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+            <div class="single-services text-center mb-30">
+              <div class="service-icon">
+                <img src="images/services1.svg" alt="Search icon">
+              </div>
+              <div class="services-cap">
+                <h5><a href="#">Find Businesses</a></h5>
+                <p>Discover &amp; connect with great local businesses in your local neighborhood like dentists, hair stylists and more.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+            <div class="single-services text-center mb-30">
+              <div class="service-icon">
+                <img src="images/services2.svg" alt="Search icon">
+              </div>
+              <div class="services-cap">
+                <h5><a href="#">Review Listings</a></h5>
+                <p>Discover &amp; connect with great local businesses in your local neighborhood like dentists, hair stylists and more.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+            <div class="single-services text-center mb-30">
+              <div class="service-icon">
+                <img src="images/services3.svg" alt="Search icon">
+              </div>
+              <div class="services-cap">
+                <h5><a href="#">Make a Reservation</a></h5>
+                <p>Discover &amp; connect with great local businesses in your local neighborhood like dentists, hair stylists and more.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     
+
+    <div class="section-padding">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="video-area section-img-bg2 d-flex align-items-center" data-background="assets/img/gallery/video-bg.jpg" style="background-image: url('images/video-bg.jpg.webp');">
+              <div class="video-wrap">
+                <a class="popup-video" href="https://www.youtube.com/watch?v=up68UAfH0d0" target="_blank">
+                  <img src="images/play-butto.svg" alt="play button" >
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-9">
+            <div class="testimonial-area">
+              <div class="h1-testimonial-active slick-initialized slick-slider">
+                <div class="slick-list draggable">
+                  <div class="slick-track" style="width: 2730px;">
+                    <div class="single-testimonial slick-slide slick-cloned" style="width: 546px;">
+                      <div class="testimonial-caption ">
+                        <div class="testimonial-top-cap">
+                          <h2>People talking about</h2>
+                          <p>"Discover &amp; connect with great local businesses in your local neighborhood like dentists,
+                             hair stylists and more unde omnis iste natus error sit voluptatem.
+                          </p>
+                        </div>
+                        <div class="testimonial-founder d-flex align-items-center">
+                          <div class="founder-img">
+                            <img src="images/founder-img.png.webp" alt="founder-img">
+                          </div>
+                          <div class="founder-text">
+                            <span>Dan Delion</span>
+                            <p>UI & UX Designer at Colorlib</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <footer>
+      <div class="footer-wrapper gray-bg">
+        <div class="footer-area footer-padding">
+          <div class="container">
+            <div class="row justify-content-between">
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-8">
+                <div class="single-footer-caption mb-50">
+                  <div class="footer-logo mb-35">
+                    <a href="#">
+                      <img src="images/logo.png.webp" alt="logo">
+                    </a>
+                  </div>
+                  <div class="footer-pera">
+                    <p>
+                      Seddo eiusmod tempor incididunt ut labore et dolore magna aliqua. Conse ctetur pisicin elit, sed do eiusmod tempor.
+                    </p>
+                  </div>
+                  <div class="footer-social">
+                    <a href="https://www.facebook.com/">
+                      <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://in.linkedin.com/">
+                      <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.youtube.com/">
+                      <i class="fab fa-youtube"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+                <div class="single-footer-caption mb-50">
+                  <div class="footer-tittle">
+                    <h4>Navigation</h4>
+                    <ul style="margin: 0px;padding: 0px;">
+                      <li>
+                        <a href="#">Home</a>
+                      </li>
+                      <li>
+                        <a href="#">About</a>
+                      </li>
+                      <li>
+                        <a href="#">Services</a>
+                      </li>
+                      <li>
+                        <a href="#">Blog</a>
+                      </li>
+                      <li>
+                        <a href="#">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+                <div class="single-footer-caption mb-50">
+                  <div class="footer-tittle">
+                    <h4>Services</h4>
+                    <ul style="margin: 0px;padding: 0px;">
+                      <li>
+                        <a href="#">Care</a>
+                      </li>
+                      <li>
+                        <a href="#">Treatment</a>
+                      </li>
+                      <li>
+                        <a href="#">Trainingl</a>
+                      </li>
+                      <li>
+                        <a href="#">Hygienic Care</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8">
+                <div class="footer-tittle mb-10">
+                  <h4>Subscribe newsletter</h4>
+                  <p>Subscribe our newsletter to get updates about our services and offers.</p>
+                </div>
+                <div class="footer-form mb-20">
+                  <form action="#">
+                    <input type="email" name="EMAIL" id="newsletter-form-email" placeholder="Enter your email">
+                    <div class="form-icon">
+                      <button type="submit" name="submit" id="newsletter-form-email" class="">
+                        <i class="fas fa-arrow-right"></i>
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="footer-border">
+              <div class="row">
+                <div class="col-xl-12">
+                  <p>Copyright ©2023 All rights reserved | This template is made with 
+                    <i class="fa fa-heart"></i>
+                    by 
+                    <a href="https://colorlib.com" target="_blank" rel="nofollow noopener">Colorlib</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div id="back-top" style="display: block;">
+      <a title="Go to Top" href="#">
+        <i class="fas fa-level-up-alt"></i>
+      </a>
+    </div>
+</body>
+</html>
